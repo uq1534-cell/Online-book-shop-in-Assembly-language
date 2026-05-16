@@ -1,2 +1,12 @@
 # Online-book-shop-in-Assembly-language
-Online Book Shop Simulation in 8086 Assembly using EMU8086. This console-based project allows users to view available books, select items, enter quantities, and generate a total bill through a menu-driven interface. It demonstrates core concepts like loops, conditional branching, arithmetic operations, and INT 21h input/output handling.
+The Online Book Shop Management System is a console-based 8086 Assembly application built for the EMU8086 emulator. It simulates a small bookstore where:
+
+A User can browse books by category, search a book by its serial number, add books to a cart, choose quantity, and generate a bill.
+An Admin can log in with a password and view the full inventory.
+The program uses only INT 21h DOS interrupts for I/O (no BIOS video tricks, no graphics), making it beginner-friendly and university-grade.
+Key design goals:
+
+Modular procedures (PRINT_STR, READ_CHAR, CLEAR_SCREEN, NEW_LINE, etc.)
+Menu-driven navigation with safe return to main menu
+Simple billing arithmetic using 16-bit registers
+Hard-coded inventory of 6 books across 3 categories
