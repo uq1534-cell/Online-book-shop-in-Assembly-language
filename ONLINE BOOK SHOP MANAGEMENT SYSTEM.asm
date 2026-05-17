@@ -16,7 +16,7 @@
 welcome_msg     db 0Dh,0Ah,"==================================================",0Dh,0Ah
                 db "        ONLINE BOOK SHOP MANAGEMENT SYSTEM       ",0Dh,0Ah
                 db "==================================================",0Dh,0Ah
-                db "        Welcome to BRO'S UNITED BOOK STORE           ",0Dh,0Ah
+                db "        Welcome to BRO'S UNITED BOOK WORLD           ",0Dh,0Ah
                 db "==================================================",0Dh,0Ah,0Dh,0Ah
                 db "         Press any key to continue...$"
 
